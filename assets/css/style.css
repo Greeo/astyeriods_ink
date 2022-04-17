@@ -1,0 +1,233 @@
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+    width: 100%;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+
+
+.page-header.page-header-small {
+    min-height: 140vh;
+    max-height: 440px;
+}
+
+.page-header {
+    min-height: 100vh;
+    max-height: 999px;
+    padding: 0;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.page-header .content-center {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    padding: 0 15px;
+    width: 100%;
+    max-width: 880px;
+}
+
+.image-container.image-right {
+    top: 0px;
+    width: 575px;
+    margin-left: 100px;
+    margin-right: -95px;
+    margin-bottom: 130px;
+}
+
+.section-shopping-items {
+    position: relative;
+}
+
+.specials {
+    position: relative;
+    overflow: hidden;
+    padding-left: 1.2%;
+    padding-right: 1.2%;
+    flex-direction: column;
+}
+
+.ratings {
+    color: rgba(244, 117, 6, 0.919);
+    margin-top: 10px;
+}
+
+.section-products .price-discription .unit-details {
+    text-align: left;
+}
+
+.section-products .price-discription .left-section {
+    text-align: left;
+}
+
+.section-products .list-item img:hover  {
+    transform: scale(1.1);
+    transition: all .75s;
+}
+
+.contact-body-inner:hover {
+    position: relative;
+    padding-bottom: 2rem;
+    border: 1px solid rgba(247, 90, 5, 0.196);
+}
+
+.fi-bs-add:before {
+    content: "\f103";
+    color: rgb(7, 89, 243);
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+i.fi.fi-bs-add {
+    float: right;
+    text-align: center;
+}
+
+i.fi.fi-sr-shopping-cart-add {
+    opacity: 100%;
+}
+
+.footer .copyright {
+    float: right;
+    margin-top: 2%;
+}
+
+div.voice.ai, 
+.fixed-bottom {
+    background-color: rgb(219, 171, 108);
+    background-color: rgba(0, 255, 255, 0.05);
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    text-shadow: 2p
+    x 2px #FFF;
+}
+
+
+div.footerBar-1b-sZ div.footerBarContent-FG6O1 {
+    display: none;
+}
+
+.fixed-bottom: {
+    position: absolute;
+    color: #DDD;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1080;
+}
+
+.ai-container {
+    margin-left: 10%;
+    padding-top: 3%;
+}
+
+
+.ai-container p {
+    color: rgb(60, 59, 59);
+    text-shadow: 2px 2px #FFF;
+}
+
+
+.footer ul li {
+    display: inline-block;
+}
+
+.brand-logo {
+    padding-right: 5%;
+}
+
+.fi.fi-rr-star {
+    color: darkred;
+}
+
+.fi.fi-sr-shopping-cart-add {
+    padding-right: 4px;
+}
+
+.navbar .navbar-nav .nav-link:not(.btn) {
+    text-transform: uppercase;
+    font-size: 1.3142em;
+    padding: 0.5rem 0.7rem;
+    line-height: .025rem;
+}
+
+/* tablet */
+@media screen and (max-width: 912px) {
+    div.navbar-translate.animate__animated.animate__bounce p {
+       float: left;
+    }
+  }
+  
+  /* mobile landscape */
+  @media screen and (max-width: 720px) {
+    div.navbar-translate.animate__animated.animate__bounce p {
+        float: left;
+     }
+  }
+  @media screen and (max-width: 991px) {
+    button.navbar-toggler.navbar-toggler{
+        float: right;
+    }
+    button.navbar-toggler.navbar-toggler.toggled {
+        
+       position: absolute;
+       float: right;
+    }
+    i.fi.fi-sr-shopping-cart-add {
+        opacity: .5;
+    }
+  }
+  /* mobile portrait */
+  @media screen and (max-width: 468px) {
+    div.navbar-translate.animate__animated.animate__bounce p {
+        float: left;
+     }
+     i.fi.fi-sr-shopping-cart-add {
+        opacity: .5;
+    }
+  }
+
+
+  @media screen and (min-width: 991px) {
+    .button-dropdown {
+        visibility: collapse;
+      }
+  }
+
+  @media screen and (min-width: 991px) {
+      div.navbar-translate.animate__animated.animate__bounce p {
+        float: left;
+     }
+  }
+
+
+   /* mobile portrait */
+   @media screen and (min-width: 500px) {
+     div#copyright.copyright {
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+     }
+  }
+  
+    /* mobile portrait */
+    @media screen and (max-width: 768px) {
+        div#copyright.copyright {
+           float: left;
+        }
+     }
